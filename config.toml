@@ -1,0 +1,84 @@
+ 
+baseURL = "https://charlie-ls.github.io/test"
+languageCode = "en-us"
+title = "GitLocker"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+defaultContentLanguage = "en-us"
+
+defaultContentLanguageInSubdir = true
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+
+[languages]
+  [languages.en-us]
+    contentDir = "content/en-us"
+
+  [languages.zh-cn]
+    contentDir = "content/zh-cn"
+ 
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[languages.en-us.menu.main]]
+  name = "Docs"
+  url = "/en-us/docs/"
+  weight = 2
+[[languages.en-us.menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[languages.zh-cn.menu.main]]
+  name = "文档"
+  url = "/zh-cn/docs/"
+  weight = 2
+[[languages.zh-cn.menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+ 
+
+[params]
+  google_analytics_id=""
+
+  homepage_intro = 'gitlocker'
+  homepage_image = 'https://charlie-ls.github.io/test/images/terminal.gif'
+
+[languages.en-us.params]
+  homepage_button_link = '/test/en-us/docs'
+  homepage_button_text = 'Read The Docs'
+
+[languages.zh-cn.params]
+  homepage_button_link = '/test/zh-cn/docs'
+  homepage_button_text = '阅读文档'
+
+  ## You can enable to add anchor links to header elements
+  ## enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "a documentation theme built with Hugo."
+    meta_og_title = "gitlocker"
+    meta_og_type = "website"
+    meta_og_url = ""
+    meta_og_image = ""
+    meta_og_description = "gitlocker."
+    meta_twitter_card = "summary"
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
+
+  [params.logo]
+      mobile = "https://charlie-ls.github.io/test/images/logo-mobile.svg"
+      standard  = "https://charlie-ls.github.io/test/images/logo.svg"
