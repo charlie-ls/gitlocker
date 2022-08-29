@@ -37,9 +37,9 @@ gitl initc -p your_passwd
 
 Export remote transparent encryption key for unlocking operation  
 
-···sh
+```sh
 gitl export-key to-path
-···
+```
 
 
 ### #Decrypt repository
