@@ -76,3 +76,17 @@ gitl decrypt plain.md -l -p passwd_for_this_file
 ```sh
 gitl decrypt -r plain.md
 ```
+
+
+### #seamlessly integrated with standard Git
+```sh
+gitl integrate
+```
+> After integrate, you can replace gitl with git on the command line, for example:  
+>  
+> gitl encrypt -r plain.md ==> git encrypt -r plain.md 
+
+### #Cancel integrate with standard git
+```sh
+gitl deintegrate
+```

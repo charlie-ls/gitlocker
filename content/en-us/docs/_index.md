@@ -12,6 +12,12 @@ weight: 1
 
 GitLocker is a tool that supports git double encryption.
 
+**FEATURE**:
+1. Remote transparent encryption
+2. Local encryption
+3. Support diff and merge operations in encrypted mode
+4. Can be seamlessly integrated with standard Git
+
 ### 2. Why GitLocker?
 
 There are two problems when saving important data or code to a git server:
