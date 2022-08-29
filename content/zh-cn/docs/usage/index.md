@@ -76,3 +76,16 @@ gitl decrypt plain.md -l -p passwd_for_this_file
 ```sh
 gitl decrypt -r plain.md
 ```
+
+### #与标准git无缝融合
+```sh
+gitl integrate
+```
+> 融合后, 可以在命令行中将gitl替换成git,例如:  
+>  
+>     gitl encrypt -r plain.md ==> git encrypt -r plain.md 
+
+### #取消与标准git的融合
+```sh
+gitl deintegrate
+```

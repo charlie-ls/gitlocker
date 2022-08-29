@@ -12,6 +12,12 @@ weight: 1
 
 GitLocker 是一个支持git双重加密的工具
 
+**特色**:
+1. 远程透明加密
+2. 本地加密
+3. 支持加密模式下的diff,merge操作
+4. 可以与标准Git无缝融合
+
 ### 二.为什么需要GitLocker?
 
 将重要数据或代码保存到git服务器上时会面临两个问题:
@@ -39,4 +45,4 @@ GitLocker提供双重加密:
 
 ### 四.工作原理图
 
-![Super wide](gitLocker.png)
+![Super wide](gitlocker.png)

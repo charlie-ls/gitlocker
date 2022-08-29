@@ -39,4 +39,4 @@ In local encryption mode, each file has an independent password.
 
 ### 4. mechanism
 
-![Super wide](gitLocker.png)
+![Super wide](gitlocker.png)
